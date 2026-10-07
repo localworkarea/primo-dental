@@ -147,6 +147,7 @@
 }
 .team-specialists__item {
   display: flex;
+  width: 100%;
 }
 
 .doc-tile {

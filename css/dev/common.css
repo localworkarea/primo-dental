@@ -889,6 +889,9 @@ body::after {
 .menu__link.active {
   opacity: 1;
 }
+.lang-item .menu__link {
+  text-transform: uppercase;
+}
 .menu__link {
   position: relative;
 }

@@ -471,7 +471,7 @@
 .home-social__body {
   display: grid;
   gap: var(--grid-gap);
-  grid-template-columns: repeat(auto-fit, minmax(18.125rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 18.125rem), 1fr));
 }
 .home-social__link {
   display: flex;
